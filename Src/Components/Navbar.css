@@ -1,0 +1,26 @@
+
+.NavbarTopDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Small screens (e.g., phones) */
+  @media screen and (max-width: 970px) {
+    .NavbarTopDiv {
+      flex-direction: column; /* Stack items vertically */
+      text-align: center; /* Center text */
+    }
+  }
+  
+  /* Medium screens (e.g., tablets) */
+  @media screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Add specific styles for medium screens if needed */
+  }
+  
+  /* Large screens (e.g., desktops) */
+  @media screen and (min-width: 1025px) {
+    /* Add specific styles for large screens if needed */
+  }
