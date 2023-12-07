@@ -36,88 +36,88 @@ function Skills() {
           marginTop: "100px",
         }}
       >
-        <div className="AboutCards">
-          <Typography>FRONT END DEVELOPMENT</Typography>
+        <div className="Skillcards">
+          <Typography variant="h6" sx={{textAlign: 'center'}}>FRONT END DEVELOPMENT</Typography>
           <br />
           <div style={{ display: "flex", flexWrap: "wrap", padding: "5px" }}>
-            <div>
-              <img height="80px" alt="React" src={React}></img>
+            <div style={{padding: '10px'}}>
+              <img height="50px" alt="React" src={React}></img>
               <Typography>React</Typography>
             </div>
-            <div>
-              <img height="80px" alt="React" src={Js}></img>
+            <div style={{padding: '10px'}}>
+              <img height="50px" alt="React" src={Js}></img>
               <Typography>JavaScript</Typography>
             </div>
-            <div>
-              <img height="80px" alt="React" src={html}></img>
+            <div style={{padding: '10px'}}>
+              <img height="50px" alt="React" src={html}></img>
               <Typography sx={{ paddingLeft: "10px" }}>HTML</Typography>
             </div>
-            <div>
-              <img height="80px" alt="React" src={Bootstrap}></img>
+            <div style={{padding: '10px'}}>
+              <img height="50px" alt="React" src={Bootstrap}></img>
               <Typography>Bootstrap</Typography>
             </div>
-            <div>
-              <img height="80px" alt="React" src={Css}></img>
+            <div style={{padding: '10px'}}>
+              <img height="50px" alt="React" src={Css}></img>
               <Typography>CSS</Typography>
             </div>
-            <div>
-              <img height="80px" alt="React" src={SASS}></img>
+            <div style={{padding: '10px'}}>
+              <img height="50px" alt="React" src={SASS}></img>
               <Typography>SASS</Typography>
             </div>
-            <div>
-              <img height="80px" alt="React" src={Figma}></img>
+            <div style={{padding: '10px'}}>
+              <img height="50px" alt="React" src={Figma}></img>
               <Typography sx={{ paddingLeft: "10px" }}>Figma</Typography>
             </div>
-            <div>
-              <img height="50px" alt="React" src={Tailwind}></img>
+            <div style={{padding: '10px'}}>
+              <img height="40px" alt="React" src={Tailwind}></img>
               <Typography sx={{ paddingLeft: "10px" }}>Tailwind</Typography>
             </div>
           </div>
         </div>
-        <div className="AboutCards">
-          <Typography>BACK END DEVELOPMENT</Typography>
+        <div className="Skillcards">
+          <Typography variant="h6" sx={{textAlign: 'center'}}>BACK END DEVELOPMENT</Typography>
           <br />
           <div style={{ display: "flex", flexWrap: "wrap" }}>
-            <div>
-              <img height="80px" alt="React" src={Java}></img>
+            <div style={{padding: '10px'}}>
+              <img height="50px" alt="React" src={Java}></img>
               <Typography>Java</Typography>
             </div>
-            <div>
-              <img height="80px" alt="React" src={Nodejs}></img>
+            <div style={{padding: '10px'}}>
+              <img height="50px" alt="React" src={Nodejs}></img>
               <Typography>Nodejs</Typography>
             </div>
-            <div>
-              <img height="80px" alt="React" src={Spring}></img>
+            <div style={{padding: '10px'}}>
+              <img height="50px" alt="React" src={Spring}></img>
               <Typography sx={{ paddingLeft: "10px" }}>Springboot</Typography>
             </div>
-            <div>
-              <img height="80px" alt="React" src={SQL}></img>
+            <div style={{padding: '10px'}}>
+              <img height="50px" alt="React" src={SQL}></img>
               <Typography sx={{ paddingLeft: "10px" }}>MySQL</Typography>
             </div>
-            <div>
-              <img height="80px" alt="React" src={MongoDB}></img>
+            <div style={{padding: '10px'}}>
+              <img height="60px" alt="React" src={MongoDB}></img>
               <Typography sx={{ paddingLeft: "10px" }}>MongoDB</Typography>
             </div>
           </div>
         </div>
-        <div className="AboutCards">
-          <Typography>MISCELLANEOUS </Typography>
+        <div className="Skillcards">
+          <Typography variant="h6" sx={{textAlign: 'center'}}>MISCELLANEOUS </Typography>
           <br />
           <div style={{ display: "flex", flexWrap: "wrap" }}>
-            <div>
-              <img height="80px" alt="React" src={Git}></img>
+            <div style={{padding: '10px'}}>
+              <img height="50px" alt="React" src={Git}></img>
               <Typography>GIT</Typography>
             </div>
-            <div>
-              <img height="80px" alt="React" src={Azure}></img>
+            <div style={{padding: '10px'}}>
+              <img height="50px" alt="React" src={Azure}></img>
               <Typography>Azure</Typography>
             </div>
-            <div>
-              <img height="80px" alt="React" src={Proc}></img>
+            <div style={{padding: '10px'}}>
+              <img height="50px" alt="React" src={Proc}></img>
               <Typography sx={{ paddingLeft: "10px" }}>Processing</Typography>
             </div>
-            <div>
-              <img height="80px" alt="React" src={SQL}></img>
+            <div style={{padding: '10px'}}>
+              <img height="50px" alt="React" src={SQL}></img>
               <Typography sx={{ paddingLeft: "10px" }}>Postman</Typography>
             </div>
           </div>

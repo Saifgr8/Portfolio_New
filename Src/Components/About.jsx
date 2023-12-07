@@ -18,12 +18,12 @@ function About() {
       </div>
 
       <div style={{ display: "flex" }}>
-        <div style={{ margin: "100px" }} className="AboutCards">
-          <img height="100px" src={GOAL}></img>
+        <div  className="AboutCards">
+          <img height="60px" src={GOAL}></img>
           <div style={{ textAlign: "center" }}>
             <Typography sx={{ fontWeight: "bold" }}>Summary</Typography>
             <br />
-            <Typography>
+            <Typography sx={{textAlign: 'justify', padding: '15px'}}>
               A fresh graduate and a software professional with good experience
               in Front End, Back End, and Database, along with a clear
               understanding of Deployment and Version Control. Seeking a
@@ -31,8 +31,8 @@ function About() {
             </Typography>
           </div>
         </div>
-        <div style={{ margin: "100px" }} className="AboutCards">
-          <img height="100px" src={Edu}></img>
+        <div className="AboutCards">
+          <img height="60px" src={Edu}></img>
           <div style={{ textAlign: "center" }}>
             <Typography sx={{ fontWeight: "bold" }}>Education</Typography>
             <br />
@@ -49,8 +49,8 @@ function About() {
             <Typography>Hyderabad, India</Typography>
           </div>
         </div>
-        <div style={{ margin: "100px" }} className="AboutCards">
-          <img height="100px" src={exp}></img>
+        <div  className="AboutCards">
+          <img height="60px" src={exp}></img>
           <div style={{ textAlign: "center" }}>
             <Typography sx={{ fontWeight: "bold" }}>Experience</Typography>
             <br />

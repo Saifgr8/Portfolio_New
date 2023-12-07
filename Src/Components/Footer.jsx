@@ -5,12 +5,11 @@ import { Link } from "react-scroll";
 function Footer() {
   return (
     <>
+    <hr />
       <div
         style={{
           display: "flex",
           justifyContent: "space-around",
-          border: "1px solid #ccc",
-          boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)",
         }}
       >
         <ul style={{ display: "flex", listStyle: "none" }}>

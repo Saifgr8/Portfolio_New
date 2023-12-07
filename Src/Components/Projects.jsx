@@ -21,8 +21,8 @@ import YT from "../../assets/Youtybe.avif";
 function Projects() {
   return (
     <div id="projects">
-      <div style={{ display: "flex", justifyContent: "center"}}>
-        <div style={{margin: '100px' }}>
+      <div style={{ display: "flex", justifyContent: "center" }}>
+        <div style={{ margin: "100px" }}>
           <Typography variant="body1">Browse My Recent</Typography>
           <Typography sx={{ marginLeft: "25px" }} variant="h5">
             Projects
@@ -34,10 +34,19 @@ function Projects() {
         <div style={{ display: "flex" }}>
           <img height="350px" src={KYF}></img>
           <div>
-            <Typography sx={{ fontWeight: "bold", padding: "5px" }}>
+            <Typography
+              variant="h5"
+              sx={{ textAlign: "center", fontWeight: "bold", padding: "5px" }}
+            >
               KNOW YOUR FOOD
             </Typography>
-            <Typography sx={{ fontStyle: "italic", padding: "5px" }}>
+            <Typography
+              sx={{
+                fontStyle: "italic",
+                padding: "15px",
+                textAlign: "justify",
+              }}
+            >
               A full stack web deployed app contributing to the health and
               fitness industry. Users can browse among 1000s of food items, set
               goal, create recipes and track progess.
@@ -77,10 +86,19 @@ function Projects() {
         <div style={{ display: "flex" }}>
           <img height="350px" src={WDpool}></img>
           <div>
-            <Typography sx={{ fontWeight: "bold", padding: "5px" }}>
+            <Typography
+              variant="h5"
+              sx={{ textAlign: "center", fontWeight: "bold", padding: "5px" }}
+            >
               Wizard Pool
             </Typography>
-            <Typography sx={{ fontStyle: "italic", padding: "5px" }}>
+            <Typography
+              sx={{
+                textAlign: "justify",
+                fontStyle: "italic",
+                padding: "15px",
+              }}
+            >
               Wizard Pool is an innovative game that combines the novel gameplay
               of 8-ball Pool, with a twist of magic. In this game, players can
               play as wizards and utilize among a set of RNG spells to bea other
@@ -110,17 +128,19 @@ function Projects() {
                 Github
               </Button>
             </div>
-            <img height="50px" src={YT}></img>
-            <Typography>
-              Watch the Youtube video here:{" "}
-              <Button
-                href="https://www.youtube.com/watch?v=MSVUIefDKOQ"
-                variant="outlined"
-                sx={{ height: "20px" }}
-              >
-                Link
-              </Button>
-            </Typography>
+            <div style={{display: 'flex'}}>
+              <img height="40px" src={YT}></img>
+              <Typography sx={{paddingTop: '10px'}}>
+                Watch the Youtube video here:
+                <Button
+                  href="https://www.youtube.com/watch?v=MSVUIefDKOQ"
+                  variant="outlined"
+                  sx={{ height: "20px" }}
+                >
+                  Link
+                </Button>
+              </Typography>
+            </div>
           </div>
         </div>
       </div>
