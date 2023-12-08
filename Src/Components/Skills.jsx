@@ -1,22 +1,9 @@
 import { Typography, css } from "@mui/material";
 import React from "react";
-import React from "../../assets/React.png";
-import Figma from "../../assets/Figma.png";
-import Js from "../../assets/js-file.png";
-import html from "../../assets/html5.png";
-import Css from "../../assets/css-3.png";
-import Java from "../../assets/java.png";
-import Spring from "../../assets/Spring.png";
-import MongoDB from "../../assets/MDB.png";
-import Azure from "../../assets/Azure.png";
-import Postman from "../../assets/POSTMAN.png";
-import Git from "../../assets/GIT.png";
-import Proc from "../../assets/Proc.png";
-import Bootstrap from "../../assets/bootstrap.png";
-import SASS from "../../assets/SASS.png";
-import Nodejs from "../../assets/nodejs.png";
-import Tailwind from "../../assets/tailwind.png";
-import SQL from "../../assets/sql-server.png";
+import React from "../../assets/React.png"; //fend
+import './About.css';
+import SkillsNew from "./SkillsNew";
+
 
 function Skills() {
   return (
@@ -29,100 +16,7 @@ function Skills() {
           </Typography>
         </div>
       </div>
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-evenly",
-          marginTop: "100px",
-        }}
-      >
-        <div className="Skillcards">
-          <Typography variant="h6" sx={{textAlign: 'center'}}>FRONT END DEVELOPMENT</Typography>
-          <br />
-          <div style={{ display: "flex", flexWrap: "wrap", padding: "5px" }}>
-            <div style={{padding: '10px'}}>
-              <img height="50px" alt="React" src={React}></img>
-              <Typography>React</Typography>
-            </div>
-            <div style={{padding: '10px'}}>
-              <img height="50px" alt="React" src={Js}></img>
-              <Typography>JavaScript</Typography>
-            </div>
-            <div style={{padding: '10px'}}>
-              <img height="50px" alt="React" src={html}></img>
-              <Typography sx={{ paddingLeft: "10px" }}>HTML</Typography>
-            </div>
-            <div style={{padding: '10px'}}>
-              <img height="50px" alt="React" src={Bootstrap}></img>
-              <Typography>Bootstrap</Typography>
-            </div>
-            <div style={{padding: '10px'}}>
-              <img height="50px" alt="React" src={Css}></img>
-              <Typography>CSS</Typography>
-            </div>
-            <div style={{padding: '10px'}}>
-              <img height="50px" alt="React" src={SASS}></img>
-              <Typography>SASS</Typography>
-            </div>
-            <div style={{padding: '10px'}}>
-              <img height="50px" alt="React" src={Figma}></img>
-              <Typography sx={{ paddingLeft: "10px" }}>Figma</Typography>
-            </div>
-            <div style={{padding: '10px'}}>
-              <img height="40px" alt="React" src={Tailwind}></img>
-              <Typography sx={{ paddingLeft: "10px" }}>Tailwind</Typography>
-            </div>
-          </div>
-        </div>
-        <div className="Skillcards">
-          <Typography variant="h6" sx={{textAlign: 'center'}}>BACK END DEVELOPMENT</Typography>
-          <br />
-          <div style={{ display: "flex", flexWrap: "wrap" }}>
-            <div style={{padding: '10px'}}>
-              <img height="50px" alt="React" src={Java}></img>
-              <Typography>Java</Typography>
-            </div>
-            <div style={{padding: '10px'}}>
-              <img height="50px" alt="React" src={Nodejs}></img>
-              <Typography>Nodejs</Typography>
-            </div>
-            <div style={{padding: '10px'}}>
-              <img height="50px" alt="React" src={Spring}></img>
-              <Typography sx={{ paddingLeft: "10px" }}>Springboot</Typography>
-            </div>
-            <div style={{padding: '10px'}}>
-              <img height="50px" alt="React" src={SQL}></img>
-              <Typography sx={{ paddingLeft: "10px" }}>MySQL</Typography>
-            </div>
-            <div style={{padding: '10px'}}>
-              <img height="60px" alt="React" src={MongoDB}></img>
-              <Typography sx={{ paddingLeft: "10px" }}>MongoDB</Typography>
-            </div>
-          </div>
-        </div>
-        <div className="Skillcards">
-          <Typography variant="h6" sx={{textAlign: 'center'}}>MISCELLANEOUS </Typography>
-          <br />
-          <div style={{ display: "flex", flexWrap: "wrap" }}>
-            <div style={{padding: '10px'}}>
-              <img height="50px" alt="React" src={Git}></img>
-              <Typography>GIT</Typography>
-            </div>
-            <div style={{padding: '10px'}}>
-              <img height="50px" alt="React" src={Azure}></img>
-              <Typography>Azure</Typography>
-            </div>
-            <div style={{padding: '10px'}}>
-              <img height="50px" alt="React" src={Proc}></img>
-              <Typography sx={{ paddingLeft: "10px" }}>Processing</Typography>
-            </div>
-            <div style={{padding: '10px'}}>
-              <img height="50px" alt="React" src={SQL}></img>
-              <Typography sx={{ paddingLeft: "10px" }}>Postman</Typography>
-            </div>
-          </div>
-        </div>
-      </div>
+      <SkillsNew />
     </div>
   );
 }
