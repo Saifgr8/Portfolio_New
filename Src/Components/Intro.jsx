@@ -3,7 +3,8 @@ import SaifImgIntro from "../../assets/MSAIF.jpg";
 import { Button, Typography, Dialog, DialogContent } from "@mui/material";
 import Linkedin from "../../assets/linkedin.png";
 import Github from "../../assets/github.png";
-import CV from "../../assets/CVS.png";
+import CVf from "../../assets/CVSF.png";
+import CVb from '../../assets/CVSB.png'
 
 function Intro() {
   const [showCV, SetShowCV] = useState(false);
@@ -59,10 +60,15 @@ function Intro() {
       </div>
       <Dialog open={showCV} onClose={handleClose}>
         <DialogContent>
-          <img
-            src={CV}
+          <img 
+            src={CVf}
             alt="CV"
-            style={{ width: "100%", maxWidth: "500px", borderRadius: "10px" }}
+            style={{ width: "100%", maxWidth: "600px", borderRadius: "10px" }}
+          />
+          <img 
+            src={CVb}
+            alt="CV"
+            style={{ width: "100%", maxWidth: "600px", borderRadius: "10px" }}
           />
         </DialogContent>
       </Dialog>

@@ -51,7 +51,7 @@ const Section = ({ title, font, open, handleclose, imge, span }) => {
             )}
           </div>
         </div>
-        <div style={{ padding: "10px" }}>
+        <div style={{ padding: "10px", display: 'flex', justifyContent: 'center' }}>
           {open && (
             <div>
               {imge.map(({ id, src }) => (
