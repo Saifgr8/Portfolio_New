@@ -16,7 +16,7 @@ import Postman from "../../assets/POSTMAN.png";
 import Git from "../../assets/GIT.png";
 import Proc from "../../assets/Proc.png";
 import WDpool from "../../assets/WDPOOL.png";
-import YT from "../../assets/Youtybe.avif";
+import YT from "../../assets/YTLOGO.png";
 import YTPorj from "../../assets/YT.png";
 import Tailwind from "../../assets/tailwind.png"; //FEND
 
