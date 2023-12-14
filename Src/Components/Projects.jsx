@@ -17,6 +17,7 @@ import Git from "../../assets/GIT.png";
 import Proc from "../../assets/Proc.png";
 import WDpool from "../../assets/WDPOOL.png";
 import YT from "../../assets/Youtybe.avif";
+import YTPorj from "../../assets/YT.png";
 
 function Projects() {
   return (
@@ -52,6 +53,57 @@ function Projects() {
               goal, create recipes and track progess.
             </Typography>
             <Typography sx={{ padding: "5px" }}>Tech used:</Typography>
+            <div style={{ padding: "5px" }}>
+              <img height="50px" alt="React" src={React}></img>
+              <img height="50px" alt="Figma" src={Figma}></img>
+              <img height="50px" alt="JavaScript" src={Js}></img>
+              <img height="50px" alt="HTML" src={html}></img>
+              <img height="50px" alt="CSS" src={Css}></img>
+              <img height="50px" alt="Java" src={Java}></img>
+              <img height="50px" alt="Spring" src={Spring}></img>
+              <img height="50px" alt="MongoDB" src={MongoDB}></img>
+              <img height="50px" alt="Azure" src={Azure}></img>
+              <img height="50px" alt="POSTMAN" src={Postman}></img>
+              <img height="50px" alt="Git" src={Git}></img>
+            </div>
+            <div style={{ display: "flex", justifyContent: "space-evenly" }}>
+              <Button
+                href="https://kyf-frontend.azurewebsites.net/"
+                variant="contained"
+              >
+                Demo
+              </Button>
+              <Button
+                href="https://github.com/Saifgr8/Kyf-frontend"
+                variant="contained"
+              >
+                Github
+              </Button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="ProjectCards">
+        <div style={{ display: "flex" }}>
+          <img height="350px" src={YTPorj}></img>
+          <div>
+            <Typography
+              variant="h5"
+              sx={{ textAlign: "center", fontWeight: "bold", padding: "5px" }}
+            >
+              YouTube Clone
+            </Typography>
+            <Typography
+              sx={{
+                fontStyle: "italic",
+                padding: "10px",
+                textAlign: "justify",
+              }}
+            >
+              Created a fully functional clone of YouTube from scratch. Implemented
+              industry-standard practices like API Management, Redux and RTK, Caching api, Debouncing, Nested Comments and API Polling.
+            </Typography>
+            <Typography >Tech used:</Typography>
             <div style={{ padding: "5px" }}>
               <img height="50px" alt="React" src={React}></img>
               <img height="50px" alt="Figma" src={Figma}></img>
@@ -128,9 +180,9 @@ function Projects() {
                 Github
               </Button>
             </div>
-            <div style={{display: 'flex'}}>
+            <div style={{ display: "flex" }}>
               <img height="40px" src={YT}></img>
-              <Typography sx={{paddingTop: '10px'}}>
+              <Typography sx={{ paddingTop: "10px" }}>
                 Watch the Youtube video here:
                 <Button
                   href="https://www.youtube.com/watch?v=MSVUIefDKOQ"

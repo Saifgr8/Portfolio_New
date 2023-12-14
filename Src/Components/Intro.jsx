@@ -3,8 +3,8 @@ import SaifImgIntro from "../../assets/MSAIF.jpg";
 import { Button, Typography, Dialog, DialogContent } from "@mui/material";
 import Linkedin from "../../assets/linkedin.png";
 import Github from "../../assets/github.png";
-import CVf from "../../assets/CVSF.png";
-import CVb from '../../assets/CVSB.png'
+import CVf from "../../assets/CVFNEW.png";
+import CVb from '../../assets/cvbNEW.png'
 
 function Intro() {
   const [showCV, SetShowCV] = useState(false);
@@ -25,25 +25,48 @@ function Intro() {
       }}
     >
       <img
-        style={{ borderRadius: "40%", height: "31.25rem", marginRight: "2rem" }}
+        style={{
+          borderRadius: "40%",
+          height: "31.25rem",
+          marginRight: "2rem",
+          transition: "transform 0.3s ease-in-out",
+        }}
         src={SaifImgIntro}
         alt="SaifGoodLookingImg"
+        onMouseOver={(e) => {
+          e.currentTarget.style.transform = "scale(1.2)";
+          e.currentTarget.nextElementSibling.style.transform =
+            "translateX(3rem)";
+        }}
+        onMouseOut={(e) => {
+          e.currentTarget.style.transform = "scale(1)";
+          e.currentTarget.nextElementSibling.style.transform = "translateX(1)";
+        }}
       />
       <div>
         <Typography variant="body2">Hello I'm</Typography>
-        <Typography  sx={{fontFamily: 'cursive'}} variant="h5">Mohammad Saifuddin</Typography>
-        <Typography variant="h6" >A web developer</Typography>
+        <Typography sx={{ fontFamily: "cursive" }} variant="h5">
+          Mohammad Saifuddin
+        </Typography>
+        <Typography variant="h6">A web developer</Typography>
         <div style={{ marginTop: "1rem", marginBottom: "1rem" }}>
           <Button
             onClick={handleOpen}
             variant="contained"
-            style={{ marginRight: "1rem" }}
+            style={{
+              marginRight: "1rem",
+              "&:hover": {
+                background: "black",
+                color: "white",
+              },
+            }}
           >
             Show CV
           </Button>
 
-          <Button href="mailto:saifgr7@gmail.com"
-          variant="contained">Contact Me</Button>
+          <Button href="mailto:saifgr7@gmail.com" variant="contained">
+            Contact Me
+          </Button>
         </div>
         <div style={{ marginTop: "1rem" }}>
           <a href="https://www.linkedin.com/in/sfud/">
@@ -60,12 +83,12 @@ function Intro() {
       </div>
       <Dialog open={showCV} onClose={handleClose}>
         <DialogContent>
-          <img 
+          <img
             src={CVf}
             alt="CV"
             style={{ width: "100%", maxWidth: "600px", borderRadius: "10px" }}
           />
-          <img 
+          <img
             src={CVb}
             alt="CV"
             style={{ width: "100%", maxWidth: "600px", borderRadius: "10px" }}
