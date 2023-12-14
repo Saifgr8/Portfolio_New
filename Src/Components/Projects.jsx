@@ -118,11 +118,7 @@ function Projects() {
             </div>
             <div style={{ display: "flex", justifyContent: "space-evenly" }}>
               <Button
-                onClick={() =>
-                  window.alert(
-                    "working on it :), till then check code at GitHub."
-                  )
-                }
+                href="https://saifyt.azurewebsites.net/"
                 variant="contained"
               >
                 Demo
